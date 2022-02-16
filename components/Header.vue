@@ -17,7 +17,7 @@
                                     <br/>
                                     <span class="text-white">a Touch of Rivalry</span>
                                 </h2>
-                                <a href="#" class="bnt bnt-theme read-story">READ STORY</a>
+                                <a href="#" class="bnt bnt-theme read-story home-btn">READ STORY</a>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                                         <span class="text-white">SAYIDAN professor explores</span> <br />
                                         <span class="text-white">marine biology with teens</span>
                                     </h2>
-                                    <a href="#" class="bnt bnt-theme read-story">READ ARTICLE</a>
+                                    <a href="#" class="bnt bnt-theme read-story home-btn">READ ARTICLE</a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                                         <span class="text-white">Hearty Welcomes with </span> <br />
                                         <span class="text-white">a Touch of Rivalry</span>
                                     </h2>
-                                    <a href="#" class="bnt bnt-theme read-story">READ STORY</a>
+                                    <a href="#" class="bnt bnt-theme read-story home-btn">READ STORY</a>
                                 </div>
                             </div>
                             </div>
@@ -61,5 +61,6 @@
 
             </template>
          <style>
-         
+
+ 
          </style>

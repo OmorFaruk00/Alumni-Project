@@ -47,7 +47,7 @@
 .counter_section{
 background: #EBE8EE;
 padding: 50px;
-margin-bottom: 20px;;
+/* margin-bottom: 20px;; */
 }
 .counter{
     font-family: 'Nunito Sans', sans-serif;

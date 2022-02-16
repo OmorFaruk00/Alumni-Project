@@ -144,6 +144,7 @@
 <style scoped>
 
 .member{ 
+    top: 0px;
     background: #f0e0d4;  
 
     }

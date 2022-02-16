@@ -46,7 +46,7 @@
 <style>
 .our_response{
     background: #EBE8EE;
-    padding: 100px 100px 200px;   
+    padding: 150px 100px 200px;   
 
 }
 .serviceBox{

@@ -1,173 +1,104 @@
 <template>
-    <div class="our-mission">
-        <!-- <h3 class="title mb-5">OUR MISSION</h3>    -->
+<section class="our-mission">
     <div class="container my-5">
+    <div class="mission-body">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-10 col-xs-12">
-                <div class="email-signature">                    
-                    <div class="signature-icon">
-                        <i class="fa fa-users"></i>
-                    </div>
-                    <div class="col-lg-6 offset-lg-4 col-md-6 offset-md-4 col-sm-12 offset-sm-1">
-                    <div class="mission-text">
-                        <h4 class="title">OUR MISSSION</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Inventore sapiente voluptatibus aliquid explicabo! Blanditiis facilis quibu
-                            sdam voluptatum quis amet, voluptatem molestias sapiente totam exercitationem atque n
-                            ostrum deserunt quae delectus inventore ratione quos recusandae deleniti? Ipsum, placeat illo 
-                            deleniti recusandae, doloremque, dolorum ducimus iusto velit aperiam a dolores sit. Perferendis, delectus
-                            sdam voluptatum quis amet, voluptatem molestias sapiente totam exercitationem atque n
-                            ostrum deserunt quae delectus inventore ratione quos recusandae deleniti? Ipsum, placeat illo 
-                            deleniti recusandae, doloremque, dolorum ducimus iusto velit aperiam a dolores sit. Perferendis, delectus</p>
-                    </div>
-                    </div>                   
-                    </div>                                
-                </div>                
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="mission-img">
+                <img src="https://picsum.photos/1920/1089" class="img-fluid" alt="...">
             </div>
         </div>
-    </div>      
-                    
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="mission">               
+                <h3> Our Mission</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde vitae deleniti ex? Vero omnis ea, debitis magni quam tempora temporibus voluptatum modi harum voluptatibus recusandae voluptatem vel. Culpa adipisci in cupiditate, libero sint, rerum, minus sunt officiis dicta odio velit expedita vero enim id nisi molestiae ut neque cumque quas!</p>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+</div>
+</section>    
 </template>
 <style>
 .our-mission{
-    padding-top: 100px;   
-    padding-bottom: 150px;
+    /* background: rgb(240, 225, 225); */
+    background: rgb(224, 215, 215);
+    padding: 100px 0px;
 }
-.mission-text{   
-    margin-top: 50px;
+.mission-body{
+     /* box-shadow: 5px 5px 10px #ebc9c985, -5px -5px 10px rgb(155, 119, 119);  */
+     box-shadow: 5px 5px 10px #dacccc85, -5px -5px 10px rgb(155, 119, 119);     
+     padding: 100px;
+     /* background: rgba(206, 185, 185, 0.904); */
+      background: rgba(233, 224, 224, 0.904);
+     border-radius: 20px;
+}
+.mission{
+    color: #F39C12;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-}
-.mission-text p{
-    font-size: 16px;
-    margin-top: 20px;
-
-} 
-.our-mission img{
-    
-  width: 500px;
-  height: 400px;
-  padding-left:50px ;
-  border-radius: 150px 0 0 150px;
-}
-.email-signature{
-    background: #039982;
-    height: 400px;
-    font-family: 'Noto Sans', sans-serif;
-    /* padding: 50px 0 40px 140px; */
-    border-radius: 25px;
-    box-shadow: 0 0 3px #999,10px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    /* width: 450px;
+    height: 350px; */
+    padding: 25px 10px;
+    margin: 0 auto;
+    border-radius: 30% 0;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
     position: relative;
     z-index: 1;
-}
-.email-signature:before,
-.email-signature:after{
-    content: "";
-    background: #00c0a9;
-    width: 100px;
+}  
+.mission:before,
+.mission:after{
+    content: '';
     height: 100%;
-    border-radius: 100%;
+    width: 100%;
+    border: 5px solid #F39C12;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
     position: absolute;
-    top: 0;
-    left: -45px;
-}
-.email-signature:after{
-    background: #fff;
-    width: 88%;
-    border-radius: 150px 0 0 150px;
-    left: auto;
-    right: 0;
+    left: -12px;
+    top: -12px;
     z-index: -1;
 }
-.email-signature .icon{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+.mission:after{
+    transform: rotate(180deg);
+    left: auto;
+    right: -12px;
+    top: auto;
+    bottom: -12px;
 }
-.email-signature .icon li{
-    margin: 0 2px;
-    display: inline-block;
+.mission h3{
+    font-size: 26px;
+    /* padding: 10px; */
+    color: #000;
+    
 }
-.email-signature .icon li a{
-    color: #00c0a9;
-    font-size: 18px;
-    text-align: center;
-    line-height: 25px;
-    height: 25px;
-    width: 25px;
-    display: block;
-    transition: all 0.3s ease 0s;
+.mission p{
+    font-size: 16px;
+    padding: 20px 40px 50px 40px;
+    color: rgb(65, 61, 61);
+    
 }
-.email-signature .icon li a:hover{
-    color: #fff;
-    background-color: #00c0a9;
+.mission-img {
+    width: 100%;
+    height: 100%;
 }
-.email-signature .signature-icon{
-    color: #00c0a9;
-    background-color: #eaeaea;
-    font-size: 40px;
-    text-align: center;
-    line-height: 65px;
-    width: 90px;
-    height: 90px;
-    border-radius: 20px;
-    border: 10px solid #fff;
-    transform: translateY(-50%);
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    z-index: 1;
-}
-.email-signature .signature-details{
-    text-transform: uppercase;
-    width: 43%;
-    padding: 20px 0 0;
-    margin: 0 15px 0 0;
-    float: left;
+.mission-img img{
+    width: 100%;
+    height: 100%;
 }
 
-@media screen and (max-width:576px){
-    .email-signature{ padding: 180px 15px 20px; }
-    .email-signature:before{
-        background: #00c0a9;
-        width: 100%;
-        height: 100px;
-        border-radius: 100%;
-        top: -45px;
-        left: 0;
+@media only screen and (max-width: 920px) {
+    .mission-img{
+        padding-bottom: 50px !important;
+        
+
     }
-    .email-signature:after{
-        height: 74%;
-        width: 100%;
-        border-radius: 150px 150px 0 0;
-        top: auto;
-        bottom: 0;
-    }
-    .email-signature .icon{
-        text-align: center;
-        margin: 0 auto;
-        top: 130px;
-        right: 0;
-        left: 0;
-    }
-    .email-signature .signature-icon{
-        margin: 0 auto;
-        top: 70px;
-        left: 0;
-        right: 0;
-    }   
-    .email-signature .title{ font-size: 25px; }
-    .email-signature .signature-content{
-        text-align: center;
-        width: 100%;
-        padding: 15px 0 0;
-        border-left: none;
-        float: none;
-    }
+
 }
-
-
+/* .col-sm-12{
+    margin-bottom: 50px;
+} */
 </style>

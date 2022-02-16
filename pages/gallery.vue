@@ -2,7 +2,7 @@
 <div>  
 
 <div class="container mb-5">
-  <h3 class="title mt-5">Photo Gallery</h3> 
+  <h3 class="title my-5">Photo Gallery</h3> 
    <div class="row text-center text-lg-start">
     <div class="col-lg-3 col-md-4 col-6">
       <a href="#" class="d-block mb-4 h-100">

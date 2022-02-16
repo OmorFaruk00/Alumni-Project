@@ -1,12 +1,12 @@
 <template>
    <div class="wrapper">
-    <div class="logo"> <img src="https://www.kindpng.com/picc/m/22-223910_circle-user-png-icon-transparent-png.png" alt=""> </div>
+    <div class="login-logo"> <img src="https://www.kindpng.com/picc/m/22-223910_circle-user-png-icon-transparent-png.png" alt=""> </div>
     <div class="text-center mt-4 name"> User Login </div>
     <form class="p-3 mt-3">
         <div class="form-field d-flex align-items-center"> <span class="far fa-user"></span> <input type="text" name="userName" id="userName" placeholder="Username"> </div>
         <div class="form-field d-flex align-items-center"> <span class="fas fa-key"></span> <input type="password" name="password" id="pwd" placeholder="Password"> </div> <button class="btn mt-3">Login</button>
     </form>
-    <div class="text-center fs-6"> <NuxtLink to="/">Forget password? </NuxtLink>or <NuxtLink to="/"> Sign Up </NuxtLink> </div>
+    <div class="text-center fs-6"> <NuxtLink to="/">Forget password? </NuxtLink>or <NuxtLink to="/studentsignup"> Sign Up </NuxtLink> </div>
 </div> 
 </template>
 <style>
@@ -33,12 +33,12 @@
      box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff
  }
 
- .logo {
+ .login-logo {
      width: 80px;
      margin: auto
  }
 
- .logo img {
+ .login-logo img {
      width: 100%;
      height: 80px;
      object-fit: cover;

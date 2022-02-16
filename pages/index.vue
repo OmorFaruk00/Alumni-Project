@@ -3,8 +3,8 @@
    <Header />
    <Event />
    <Responsibility />
-   <!-- <Mission /> -->
-   <Dashboard />
+   <Mission />
+   <!-- <Dashboard /> -->
    <Blocklink />
    <!-- <Interview /> -->
    <Counter />

@@ -69,7 +69,7 @@
                 <div class="login-dashboard">
                   <a
                     href="./login-page.html"
-                    class="bg-color-theme text-center text-regular"
+                    class="bg-color-theme text-center text-regular home-btn"
                     >Login Dashboard</a
                   >
                 </div>

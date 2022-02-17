@@ -16,7 +16,7 @@
                   <div class="post-desc">
                     <div class="post-title">
                       <h6 class="heading-regular">
-                        <a href="#">New Sayidan "Start-Up" in Distrupt 2016</a>
+                        <a href="#">New Diu "Start-Up" in Distrupt 2022</a>
                       </h6>
                     </div>
                     <div class="post-excerpt">
@@ -36,7 +36,7 @@
                   <div class="post-desc">
                     <div class="post-title">
                       <h6 class="heading-regular">
-                        <a href="#">Sayidan Library Gives Alumni New Access</a>
+                        <a href="#">Diu Library Gives Alumni New Access</a>
                       </h6>
                     </div>
                     <div class="post-excerpt">
@@ -79,7 +79,7 @@
                     <div class="post-title">
                       <h6 class="heading-regular">
                         <a href="#"
-                          >Sayidan in Silicon Valley: Family and Finance</a
+                          >Diu in Silicon Valley: Family and Finance</a
                         >
                       </h6>
                     </div>

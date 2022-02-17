@@ -8,7 +8,7 @@
                         </div>
                         <form name="subscribe-form" target="_blank" class="form-inline">
                             <input type="text" class="form-control text-center form-text-light" name="EMAIL" value="" placeholder="E-mail Address">
-                            <button type="submit" class="button bnt-theme">subscribe</button>
+                            <button type="submit" class="button bnt-theme home-btn">subscribe</button>
                         </form>
                     </div>
                 </div>

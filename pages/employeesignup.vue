@@ -1,5 +1,5 @@
 <template>
-  <section class="employee-signup">
+  <section class="signup">
     <div class="mask d-flex align-items-center">
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -18,7 +18,7 @@
                 <form>
                   <div class="form-outline mb-2">
                     <label class="form-label mb-2" for="form3Example1cg"
-                      >Your Name</label
+                      >Name</label
                     >
                     <input
                       type="text"
@@ -29,7 +29,7 @@
 
                   <div class="form-outline mb-2">
                     <label class="form-label mb-2" for="form3Example3cg"
-                      >Your Email</label
+                      >Depertment</label
                     >
                     <input
                       type="email"
@@ -39,7 +39,7 @@
                   </div>
                   <div class="form-outline mb-2">
                     <label class="form-label mb-2" for="form3Example4cg"
-                      >Password</label
+                      >Batch</label
                     >
                     <input
                       type="password"
@@ -49,7 +49,7 @@
                   </div>
                   <div class="form-outline mb-2">
                     <label class="form-label mb-2" for="form3Example4cdg"
-                      >Repeat your password</label
+                      >Student Id</label
                     >
                     <input
                       type="password"
@@ -81,39 +81,4 @@
     </div>
   </section>
 </template>
-<style>
-.employee-signup {
-  padding: 100px 0px;
-}
-.logo {
-  width: 80px;
-  margin: auto;
-}
-.logo img {
-  width: 100%;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7,
-    -8px -8px 15px #fff;
-}
-.card-body {
-  background-color: #ecf0f3;
-  border-radius: 15px;
-  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
-}
-.signup_btn {
-  margin-top: 20px;
-  box-shadow: none;
-  width: 100%;
-  height: 45px;
-  background-color: #03a9f4;
-  color: #fff;
-  border-radius: 25px;
-  box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
-  letter-spacing: 1.3px;
-}
-.signup_btn:hover {
-  background-color: #039be5;
-}
-</style>
+

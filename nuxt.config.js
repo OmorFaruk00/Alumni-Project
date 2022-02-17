@@ -15,17 +15,19 @@ export default {
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'},      
       {rel: 'stylesheet', id: 'bootstrap-style', href: '/css/bootstrap.min.css'},
-      {rel: 'stylesheet', href: '/css/icons.min.css'},      
-      {rel: 'stylesheet', href: '/bootstrap-select/dist/css/bootstrap-select.min.css'},
-     
+      {rel: 'stylesheet', href: '/css/icons.min.css'},    
+      
+       
     ],
 
     script: [
       {src: '/libs/jquery/jquery.min.js', defer: true},
-      {src: '/libs/bootstrap/js/bootstrap.bundle.min.js', defer: true},     
-      {src: '/bootstrap-select/dist/js/bootstrap-select.min.js', defer: true},
+      {src: '/libs/bootstrap/js/bootstrap.bundle.min.js', defer: true},  
       {src: '/libs/metismenu/metisMenu.min.js', defer: true},
       {src: '/libs/simplebar/simplebar.min.js', defer: true},
+      {src: '/js/main.js', defer: true},
+      {src: '/js/jquery.min.js', defer: true},
+      
      
       
     ],

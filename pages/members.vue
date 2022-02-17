@@ -130,12 +130,7 @@
                         <span class="alumni-post">Web Developer</span>
                     </div>                   
                 </div>
-            </div>
-            
-            
-            
-         
-             
+            </div>        
           
         </div>
     </div>

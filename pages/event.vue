@@ -138,59 +138,5 @@
   </div>
 </template>
 <style>
-.event-page {
-  margin-bottom: 100px;
-}
-.card-title {
-  font-size: 20px;
-  font-weight: bold;
-}
-.card-text {
-  font-size: 14px;
-}
-.join-btn {
-  color: #17a2b8;
-  font-size: 16px;
-}
 
-.shadow:before,
-.shadow:after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background: linear-gradient(
-    45deg,
-    #fb0094,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000,
-    #fb0094,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000
-  );
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: animate 20s linear infinite;
-}
-.shadow:after {
-  filter: blur(10px);
-}
-
-@keyframes animate {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 300% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
 </style>

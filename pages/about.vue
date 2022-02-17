@@ -31,7 +31,7 @@
                         <div id="tab_services">
                             <!--Nav tabs-->
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="">
+                                <li role="presentation" class="active">
                                     <a class="text-dark" href="#social" aria-controls="social" role="tab" data-toggle="tab">Social</a>
                                 </li>
                                 <li role="presentation">
@@ -43,7 +43,7 @@
                             </ul>
                             <!--Tab panes-->
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane  animated zoomIn" id="social">
+                                <div role="tabpanel" class="tab-pane active animated zoomIn" id="social">
                                     <div class="tab-content-wrapper">
                                         <p class="text-dark">
                                             Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.

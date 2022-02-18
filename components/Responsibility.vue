@@ -3,7 +3,7 @@
     
         <h3 class="title mb-5">Our Responsibility</h3>   
     <div class="row">
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-6 col-sm-12 col-lg-3 col-12">
         <div class="serviceBox">
             <div class="service-icon">
                 <span><i class="fa fa-globe"></i></span>
@@ -12,7 +12,7 @@
             <p class="description">De create building thinking about your requirment and latest treand on our marketplace area</p>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-6 col-sm-12 col-lg-3 col-12">
         <div class="serviceBox yellow">
             <div class="service-icon">
                 <span><i class="fa fa-user"></i></span>
@@ -21,7 +21,7 @@
             <p class="description">De create building thinking about your requirment and latest treand on our marketplace area</p>
         </div>
     </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-6 col-sm-12 col-lg-3 col-12">
         <div class="serviceBox purple">
             <div class="service-icon">
                 <span><i class="fa fa-landmark"></i></span>
@@ -30,7 +30,7 @@
             <p class="description">De create building thinking about your requirment and latest treand on our marketplace area</p>
         </div>
     </div>
-      <div class="col-md-3 col-sm-6">
+      <div class="col-md-6 col-sm-12 col-lg-3 col-12">
         <div class="serviceBox red">
             <div class="service-icon">
                 <span><i class="fa fa-handshake"></i></span>

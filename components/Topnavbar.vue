@@ -1,14 +1,14 @@
 <template>
     <section class="sticky-top bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-6">
+            <div class="row ">
+                <div class="col-lg-6 col-md-6 col-sm-12 top-menu">
                     <div class="top-logo">
                         <img src="/images/diulogo.png" alt="logo"/>
                     </div>
                     <!-- <h4 class="alumni">Alumni Asociation</h4> -->
                 </div>
-                <div class="col-lg-6 col-md-6 col-6">
+                <div class="col-lg-6 col-md-6 col-sm-12 top-menu">
                     <div class="d-flex justify-content-end top-btn">
                         <div class="dropdown">
                             <a type="button" class="dropdown-toggle" data-toggle="dropdown">
@@ -26,7 +26,7 @@
                                             Students
                                         </h6>
                                         <p>Sing in or Create your alumni account</p>
-                                        <div class="mt-4">
+                                        <div class="mt-3 d-flex signup_small">
                                             <NuxtLink class="btn-account signin-text" to="/login">sign in</NuxtLink >
                                             <NuxtLink class="btn-account acount-text" to="/studentsignup">Create Account</NuxtLink >
                                         </div>
@@ -40,7 +40,7 @@
                                             Employee
                                         </h6>
                                         <p>Sing in or Create your alumni account</p>
-                                        <div class="mt-4">
+                                        <div class="mt-3 d-flex signup_small">
                                             <NuxtLink class="btn-account signin-text" to="/login">sign in</NuxtLink >
                                             <NuxtLink class="btn-account acount-text" to="/employeesignup">Create Account</NuxtLink >
                                         </div>

@@ -2,7 +2,7 @@
     <section class="counter_section">
         <div class="my-5">
     <div class="row">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-12 col-lg-3">
             <div class="counter">
                 <div class="counter-icon">
                     <i class="fa fa-user"></i>
@@ -11,7 +11,7 @@
                 <h3>Students</h3>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-12 col-lg-3">
             <div class="counter purple">
                 <div class="counter-icon">
                     <i class="fa fa-calendar"></i>
@@ -20,7 +20,7 @@
                 <h3>Events</h3>
             </div>
         </div>
-         <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-12 col-lg-3">
             <div class="counter green">
                 <div class="counter-icon">
                     <i class="fa fa-camera"></i>
@@ -29,7 +29,7 @@
                 <h3>Photos</h3>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-12 col-lg-3">
             <div class="counter blue">
                 <div class="counter-icon">
                    <i class="fa fa-blog"></i>

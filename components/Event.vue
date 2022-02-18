@@ -1,6 +1,6 @@
 <template>
   <div class="upcoming-event">
-    <h3 class="title mb-5 pb-5 text-dark">UPCOMING EVENT</h3>
+    <h3 class="title mb-5  text-dark">UPCOMING EVENT</h3>
     <div class="container">
       <div class="row event-row">
         <div class="area-img col-md-5 col-sm-12 col-xs-12">

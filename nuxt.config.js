@@ -16,6 +16,8 @@ export default {
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'},      
       {rel: 'stylesheet', id: 'bootstrap-style', href: '/css/bootstrap.min.css'},
       {rel: 'stylesheet', href: '/css/icons.min.css'},    
+      {rel: 'stylesheet', href: '/css/owl.carousel.min.css'},    
+      {rel: 'stylesheet', href: '/css/owl.them.min.css'},    
       
        
     ],
@@ -26,8 +28,8 @@ export default {
       {src: '/libs/metismenu/metisMenu.min.js', defer: true},
       {src: '/libs/simplebar/simplebar.min.js', defer: true},
       {src: '/js/main.js', defer: true},
-      {src: '/js/jquery.min.js', defer: true},
-      
+      {src: '/js/jquery.min.js', defer: true},    
+      {src: '/js/owl.carousel.min.js', defer: true},    
      
       
     ],
@@ -36,7 +38,9 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [   
    '@/assets/css/main.css',
-  //  'bootstrap/dist/css/bootstrap.css',
+  //  '@/assets/css/owl.carousel.min.css',
+  //  '@/assets/css/owl.them.min.css',
+   
   
   
   ],

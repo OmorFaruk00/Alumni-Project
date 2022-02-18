@@ -17,7 +17,7 @@
                   <h6>Address: Satarkul, Badda, Dhaka-1212. Bangladesh.</h6>
                   <h6>Mobile: 55040891-7</h6>
                   <h6>E-mail: admission@diu.net.bd</h6>
-                  <h6>Website: https://admission.diu.ac/register</h6>
+                  <h6>Website: https://admission.diu.ac</h6>
                 </div>
               </a>
             </div>
@@ -29,7 +29,7 @@
                   <h6>Address: House # 4, Road # 1, Block - F, Banani, Dhaka -1213, Bangladesh</h6>
                   <h6>Mobile: 55040891-7</h6>
                   <h6>E-mail: admission@diu.net.bd</h6>
-                  <h6>Website: https://admission.diu.ac/register</h6>
+                  <h6>Website: https://admission.diu.ac</h6>
                 </div>
               </a>
             </div>
@@ -41,7 +41,7 @@
                   <h6>Address: 66 Green Road Dhaka - 1205, Bangladesh</h6>
                   <h6>Mobile: 55040891-7</h6>
                   <h6>E-mail: admission@diu.net.bd</h6>
-                  <h6>Website: https://admission.diu.ac/register</h6>
+                  <h6>Website: https://admission.diu.ac</h6>
                 </div>
               </a>
             </div>

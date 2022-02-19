@@ -7,7 +7,7 @@
                 <div class="counter-icon">
                     <i class="fa fa-user"></i>
                 </div>
-                <span class="counter-value">30</span>
+                <span class="counter-value">50</span>
                 <h3>Students</h3>
             </div>
         </div>
@@ -16,7 +16,7 @@
                 <div class="counter-icon">
                     <i class="fa fa-calendar"></i>
                 </div>
-                <span class="counter-value">30</span>
+                <span class="counter-value">40</span>
                 <h3>Events</h3>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <div class="counter-icon">
                     <i class="fa fa-camera"></i>
                 </div>
-                <span class="counter-value">30</span>
+                <span class="counter-value">60</span>
                 <h3>Photos</h3>
             </div>
         </div>
@@ -34,7 +34,7 @@
                 <div class="counter-icon">
                    <i class="fa fa-blog"></i>
                 </div>
-                <span class="counter-value">30</span>
+                <span class="counter-value">20</span>
                 <h3>Blogs</h3>
             </div>
         </div>

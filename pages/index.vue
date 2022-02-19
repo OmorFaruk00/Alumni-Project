@@ -5,9 +5,11 @@
    <Responsibility />
    <Mission />
    <!-- <Dashboard /> -->
-   <Blocklink />
+   <!-- <Blocklink /> -->
    <!-- <Interview /> -->
+   <News />
    <Counter />
+   <Gallery />
    
     
   </div>

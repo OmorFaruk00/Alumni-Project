@@ -1,6 +1,6 @@
 <template>
   <div class="container event-page">
-    <h3 class="title mt-5 mb-5">All Blogs</h3>
+    <h3 class="title mt-5 mb-5"> Blog list</h3>
     <div class="row">
       <div class="col-md-6 col-lg-4 col-sm-12 mb-5">
         <div class="blog" style="">
@@ -164,7 +164,7 @@
 <style>
 .blog {
   padding: 20px;
-  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  box-shadow: 3px 3px 10px #cbced1, -13px -13px 20px #fff;
 }
 .blog-content span {
   color: rgb(128, 116, 116);
@@ -177,6 +177,8 @@
 }
 .blog-content p {
   color: rgb(95, 83, 83);
+  line-height: 15px;
+  font-size: 14px;
 }
 .read-btn {
   font-size: 16px;

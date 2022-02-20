@@ -162,34 +162,5 @@
   </div>
 </template>
 <style>
-.blog {
-  padding: 20px;
-  box-shadow: 3px 3px 10px #cbced1, -13px -13px 20px #fff;
-}
-.blog-content span {
-  color: rgb(128, 116, 116);
-  font-size: 14px;
-}
-.blog-content h4 {
-  color: rgb(20, 8, 8);
-  font-size: 22px;
-  padding: 10px 0px;
-}
-.blog-content p {
-  color: rgb(95, 83, 83);
-  line-height: 15px;
-  font-size: 14px;
-}
-.read-btn {
-  font-size: 16px;
-  color: rgb(7, 185, 230);
-  padding: 15px 0px;
-}
-.read-btn:hover {
-  text-decoration: none;
-  color: rgb(87, 197, 129);
-}
-.imgbox img {
-  padding-bottom: 8px;
-}
+
 </style>

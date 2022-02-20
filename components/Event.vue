@@ -13,7 +13,7 @@
                                 <h5 class="heading-light no-margin animated fadeInRight">
                                     ANNUAL MEET UP AND SCHOLARSHIP PRESENTATIONS
                                 </h5>
-                                <h6 class="mb-3 mt-3">
+                                <h6 class="mb-3 mt-3 text-justify">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nobis
                                     voluptatibus rem laudantium, impedit, nisi explicabo harum sed cumque sit
                                     quisquam vel mollitia maiores reiciendis obcaecati. Quas alias soluta nisi esse,

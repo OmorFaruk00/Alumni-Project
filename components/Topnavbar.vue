@@ -28,7 +28,7 @@
                                         <p>Sing in or Create your alumni account</p>
                                         <div class="mt-3 d-flex signup_small">
                                             <NuxtLink class="btn-account signin-text" to="/login">sign in</NuxtLink >
-                                            <NuxtLink class="btn-account acount-text" to="/studentsignup">Create Account</NuxtLink >
+                                            <NuxtLink class="btn-account acount-text" to="/certificate-verification">Create Account</NuxtLink >
                                         </div>
                                     </div>
                                 </div>

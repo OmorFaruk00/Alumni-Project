@@ -8,35 +8,35 @@
                             <div class="card-body p-5">
                                 <div class="logo">
                                     <img
-                                        src="https://www.kindpng.com/picc/m/22-223910_circle-user-png-icon-transparent-png.png"
+                                        src="/images/login.png"
                                         alt=""/>
                                 </div>
                                 <h2 class="text-uppercase text-center my-4">
-                                    Create an account
+                                    CERTIFICATE VERIFICATION
                                 </h2>
                                 <form>
                                     <div class="form-outline mb-2">
-                                        <label class="form-label mb-2" for="form3Example1cg">Name</label >
+                                        <label class="form-label mb-2" for="form3Example1cg">Roll</label >
                                         <input type="text" id="form3Example1cg" class="form-control form-control"/>
                                     </div>
 
                                     <div class="form-outline mb-2">
-                                        <label class="form-label mb-2" for="form3Example3cg">Depertment</label >
+                                        <label class="form-label mb-2" for="form3Example3cg">Session</label >
                                         <input type="email" id="form3Example3cg" class="form-control form-control"/>
                                     </div>
                                     <div class="form-outline mb-2">
-                                        <label class="form-label mb-2" for="form3Example4cg">Batch</label >
+                                        <label class="form-label mb-2" for="form3Example4cg">Reg code</label >
                                         <input type="password" id="form3Example4cg" class="form-control form-control"/>
                                     </div>
                                     <div class="form-outline mb-2">
-                                        <label class="form-label mb-2" for="form3Example4cdg">Student Id</label >
+                                        <label class="form-label mb-2" for="form3Example4cdg">Passing Year</label >
                                         <input type="password" id="form3Example4cdg" class="form-control form-control"/>
                                     </div>
 
                                     <div class="d-flex justify-content-center">
-                                        <button type="button" class="btn signup_btn btn-block btn-lg text-body">
-                                            Register
-                                        </button>
+                                        <nuxt-link to="/studentsignup" type="button" class="btn signup_btn btn-block btn-lg text-body">
+                                           Search
+                                        </nuxt-link>
                                     </div>
                                     <p class="text-center text-muted mt-5 mb-0">
                                         Have already an account?

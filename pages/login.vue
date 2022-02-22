@@ -1,6 +1,6 @@
 <template>
    <div class="wrapper">
-    <div class="login-logo"> <img src="https://www.kindpng.com/picc/m/22-223910_circle-user-png-icon-transparent-png.png" alt=""> </div>
+    <div class="login-logo"> <img src="/images/login.png" alt=""> </div>
     <div class="text-center mt-4 name"> User Login </div>
     <form class="p-3 mt-3">
         <div class="form-field d-flex align-items-center"> <span class="far fa-user"></span> <input type="text" name="userName" id="userName" placeholder="Username"> </div>

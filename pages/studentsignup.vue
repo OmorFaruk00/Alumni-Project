@@ -228,7 +228,7 @@
                                                         </h6>
                                                     </div>
                                                     <div class="d-flex">
-                                                        <h6 class="mr-3">Looking For Jobs
+                                                        <h6 class="mr-3">Looking for jobs
 
                                                             <input type="radio" id="" class="ml-5 mr-2 pt-5">Yes
                                                                 <input type="radio" id="" class="ml-3 mr-2 pt-5">No

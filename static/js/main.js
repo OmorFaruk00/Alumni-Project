@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
   $('.nav-list').on('click', 'li', function() {
     $('.nav-list li.active').removeClass('active');
     $(this).addClass('active');
@@ -13,33 +13,33 @@ $( document ).ready(function() {
   
   
   // for mobile addition field
-  jQuery('.mobile-add-button').click(function(e){
+  $('.mobile-add-button').click(function(e){
     e.preventDefault();
       if(x < maxLimit){ 
-          jQuery('.mobile-form-wrapper').append(appendMobile);
+          $('.mobile-form-wrapper').append(appendMobile);
           x++;
       }
   });
   
   // for mobile deletion field
-  jQuery('.mobile-form-wrapper').on('click', '.mobile-remove-button', function(e){
+  $('.mobile-form-wrapper').on('click', '.mobile-remove-button', function(e){
       e.preventDefault();
-      jQuery(this).parents('.input-wrapper').remove();
+      $(this).parents('.input-wrapper').remove();
       x--;
   });
    // for email add field
-   jQuery('.email-add-button').click(function(e){
+   $('.email-add-button').click(function(e){
     e.preventDefault();
       if(x <  maxLimit){ 
-          jQuery('.email-form-wrapper').append(appendEmail);
+          $('.email-form-wrapper').append(appendEmail);
           x++;
       }
   });
   
   //  for email deletion field
-  jQuery('.email-form-wrapper').on('click', '.email-remove-button', function(e){
+  $('.email-form-wrapper').on('click', '.email-remove-button', function(e){
       e.preventDefault();
-      jQuery(this).parents('.input-wrapper').remove();
+      $(this).parents('.input-wrapper').remove();
       x--;
   });
 
@@ -97,12 +97,12 @@ $( document ).ready(function() {
   </div>
   <div class="col-sm-12 col-md-6 col-lg-6">
       <div class="form-outline mb-2">
-          <label class="form-label mb-2" for="form3Example1cg">Company Address</label >
+          <label class="form-label mb-2" for="form3Example1cg">Responsibility</label >
           <input
               type="text"
               id="form3Example1cg"
               class="form-control"
-              placeholder="Enter company address"/>
+              placeholder="Enter your responsibility"/>
       </div>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-12 d-flex">
@@ -113,17 +113,17 @@ $( document ).ready(function() {
 
 `;
 // for job add field
-jQuery('.job-add-button').click(function(e){
+$('.job-add-button').click(function(e){
   e.preventDefault();
     if(x < jobLimit){ 
-        jQuery('.job-form-wrapper').append(jobfieldHTML);
+        $('.job-form-wrapper').append(jobfieldHTML);
         j++;
     }
 });
 // for job remove field
-jQuery('.job-form-wrapper').on('click', '.job-remove-button', function(e){
+$('.job-form-wrapper').on('click', '.job-remove-button', function(e){
   e.preventDefault();
-  jQuery(this).parents('.input-wrapper').remove();
+  $(this).parents('.input-wrapper').remove();
   j--;
 });
 

@@ -27,9 +27,9 @@ export default {
       {src: '/libs/bootstrap/js/bootstrap.bundle.min.js', defer: true},  
       {src: '/libs/metismenu/metisMenu.min.js', defer: true},
       {src: '/libs/simplebar/simplebar.min.js', defer: true},
-      {src: '/js/main.js', defer: true},
-      {src: '/js/jquery.min.js', defer: true},    
       {src: '/js/owl.carousel.min.js', defer: true},    
+      {src: '/js/jquery.min.js', defer: true},    
+      {src: '/js/main.js', defer: true},
      
       
     ],
@@ -50,6 +50,8 @@ export default {
   plugins: [
     {src: 'plugins/owl.js', ssr: false},
     {src: 'plugins/bootstrap.js', ssr: false},  
+    { src: '~/plugins/notification.js', mode: 'client' },
+    { src: '~/plugins/notificationsrs.js', mode: 'server' } 
     
     
   ],

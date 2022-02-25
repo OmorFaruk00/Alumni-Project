@@ -1,14 +1,19 @@
 <template>
-<div class="default">
-    <Topnavbar /> 
-    <Nuxt /> 
+  <div class="default">
+    <Topnavbar />
+    <Nuxt />
     <Newsletter />
-    <Footer />
-</div>
-    
+    <Footer /><notifications />
+  </div>
 </template>
+<script>
+
+export default {
+
+}
+</script>
 <style>
-.default{
-    /* margin-top: 200px; */
+.default {
+  /* margin-top: 200px; */
 }
 </style>

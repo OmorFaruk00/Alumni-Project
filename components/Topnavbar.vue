@@ -97,4 +97,8 @@
         </nav>
     </section>
 </template>
-<style></style>
+<script>
+export default {
+   name:"Topnavbar",
+}
+</script>

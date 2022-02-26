@@ -104,6 +104,11 @@
     </footer>
   </div>
 </template>
+<script>
+export default {
+  name:'Footer',
+}
+</script>
 <style>
 .logo-footer img {
   width: 200px;

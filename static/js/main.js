@@ -1,4 +1,5 @@
-$(document).ready(function() {
+$(document).ready(function() {  
+   
   $('.nav-list').on('click', 'li', function() {
     $('.nav-list li.active').removeClass('active');
     $(this).addClass('active');
@@ -13,7 +14,7 @@ $(document).ready(function() {
   
   
   // for mobile addition field
-  $('.mobile-add-button').click(function(e){
+  $('.mobile-add-button').on("click",function(e){
     e.preventDefault();
       if(x < maxLimit){ 
           $('.mobile-form-wrapper').append(appendMobile);
@@ -28,7 +29,7 @@ $(document).ready(function() {
       x--;
   });
    // for email add field
-   $('.email-add-button').click(function(e){
+   $('.email-add-button').on("click" ,function(e){
     e.preventDefault();
       if(x <  maxLimit){ 
           $('.email-form-wrapper').append(appendEmail);
@@ -113,7 +114,7 @@ $(document).ready(function() {
 
 `;
 // for job add field
-$('.job-add-button').click(function(e){
+$('.job-add-button').on('click',function(e){
   e.preventDefault();
     if(x < jobLimit){ 
         $('.job-form-wrapper').append(jobfieldHTML);

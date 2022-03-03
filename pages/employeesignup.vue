@@ -14,27 +14,27 @@
                                 <h2 class="text-uppercase text-center my-4">
                                     Create an account
                                 </h2>
-                                <form>
+                                <form @submit.prevent="employee">
                                     <div class="form-outline mb-2">
                                         <label class="form-label mb-2" for="form3Example1cg">Name</label >
-                                        <input type="text" id="form3Example1cg" class="form-control form-control"/>
+                                        <input type="text" id="form3Example1cg" class="form-control form-control" v-model="student.name"/>
                                     </div>
 
                                     <div class="form-outline mb-2">
-                                        <label class="form-label mb-2" for="form3Example3cg">Depertment</label >
-                                        <input type="email" id="form3Example3cg" class="form-control form-control"/>
+                                        <label class="form-label mb-2" for="form3Example3cg" >Department</label >
+                                        <input type="text" id="form3Example3cg" class="form-control form-control" v-model="student.department"/>
                                     </div>
                                     <div class="form-outline mb-2">
                                         <label class="form-label mb-2" for="form3Example4cg">Batch</label >
-                                        <input type="password" id="form3Example4cg" class="form-control form-control"/>
+                                        <input type="text" id="form3Example4cg" class="form-control form-control" v-model="student.batch"/>
                                     </div>
                                     <div class="form-outline mb-2">
                                         <label class="form-label mb-2" for="form3Example4cdg">Student Id</label >
-                                        <input type="password" id="form3Example4cdg" class="form-control form-control"/>
+                                        <input type="text" id="form3Example4cdg" class="form-control form-control" v-model="student.student_id"/>
                                     </div>
 
                                     <div class="d-flex justify-content-center">
-                                        <button type="button" class="btn signup_btn btn-block btn-lg text-body">
+                                        <button type="submit" class="btn signup_btn btn-block btn-lg text-body">
                                             Register
                                         </button>
                                     </div>
@@ -53,3 +53,42 @@
         </div>
     </section>
 </template>
+<script>
+import axios from 'axios';
+export default {
+    data(){
+        return{
+            data:[],
+            student:{
+                name:'',
+                department:'',
+                batch:"",
+                student_id:''
+            }
+            
+        }
+       
+    },
+    methods:{
+       async employee_signup(){
+            // alert('ok');
+            await this.axios.post('http://127.0.0.1:8000/api/data',this.student)
+            .then((res) => {
+                this.onSuccess(res.data.message);
+            })
+            .catch((error)=>{
+                this.onFailure(error.response.data.message);
+            })
+            }            
+        },
+        onSuccess(){
+            this.success = true;
+
+        },
+        onFailure(){
+            this.error = true;
+        }
+    
+    
+}
+</script>
